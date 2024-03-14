@@ -2,9 +2,7 @@
 
 
 <!--타이틀 부분-->
-<div align="center">
-  <img src="" />
-</div>
+
 
 <!--내용 부분-->
 <h3 align="center">✨ Tech Stack ✨</h3>
@@ -80,7 +78,9 @@
 <div align="center>
 [![Solved.ac
 eoieiie](http://mazassumnida.wtf/api/generate_badge?boj=eoieiie)](https://solved.ac/eoieiie)
-<!--
+</div>
+  
+<div align="center>
 **eoieiie/eoieiie** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 </div>
 
