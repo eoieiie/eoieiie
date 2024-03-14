@@ -1,15 +1,9 @@
 ### 🍀
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eoieiie)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Solved.ac
-eoieiie](http://mazassumnida.wtf/api/generate_badge?boj=eoieiie)](https://solved.ac/eoieiie)
-
-
 <!--타이틀 부분-->
 <div align="center">
-  <img src="https://github.com/oka1313/oka1313/assets/101691440/92118a53-c5b6-40bc-b130-bf8c398d7b51" />
+  <img src="" />
 </div>
 
 <!--내용 부분-->
@@ -78,8 +72,18 @@ eoieiie](http://mazassumnida.wtf/api/generate_badge?boj=eoieiie)](https://solved
       src="https://img.shields.io/badge/oka1313@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>&nbsp
   </a>
 </div>
+
+<div align="center>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eoieiie)](https://github.com/anuraghazra/github-readme-stats)
+</div>
+
+<div align="center>
+[![Solved.ac
+eoieiie](http://mazassumnida.wtf/api/generate_badge?boj=eoieiie)](https://solved.ac/eoieiie)
 <!--
 **eoieiie/eoieiie** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+</div>
+
 
 Here are some ideas to get you started:
 
