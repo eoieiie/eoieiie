@@ -62,8 +62,8 @@
 
 <h3 align="center">📫 Contact 📫</h3>
 <div align="center">
-  <a href="https://velog.io/@oka1313">
-    <img src="https://yellowsickmedicine.tistory.com?style=for-the-badge&logo=tistory&logoColor=white" />&nbsp
+  <a href="https://yellowsickmedicine.tistory.com">
+    <img src="https://img.shields.io/badge/Velog-1EBC8F?style=for-the-badge&logo=tistory&logoColor=white" />&nbsp
   </a>
   <a href="mailto:oka1313@gmail.com">
     <img
