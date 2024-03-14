@@ -63,11 +63,11 @@
 <h3 align="center">📫 Contact 📫</h3>
 <div align="center">
   <a href="https://yellowsickmedicine.tistory.com">
-    <img src="https://img.shields.io/badge/Velog-1EBC8F?style=for-the-badge&logo=tistory&logoColor=white" />&nbsp
+    <img src="https://img.shields.io/badge/tistory-1EBC8F?style=for-the-badge&logo=tistory&logoColor=white" />&nbsp
   </a>
-  <a href="mailto:oka1313@gmail.com">
+  <a href="turkiyecivciv31@gmail.com">
     <img
-      src="https://img.shields.io/badge/oka1313@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>&nbsp
+      src="https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>&nbsp
   </a>
 </div>
 
