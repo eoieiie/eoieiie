@@ -1,6 +1,7 @@
-# Welcome to eoieiie
+<div align="center">
+  # Welcome to eoieiie
+</div>
 
----
 <!--내용 부분-->
 <h3 align="center">✨ Tech Stack ✨</h3>
 <div align="center">
