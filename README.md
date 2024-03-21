@@ -1,5 +1,5 @@
-<div align="center"; font-size:30px; >
-  # Welcome to eoieiie
+<div style="text-align: center; font-size: 30px;">
+  Welcome to eoieiie
 </div>
 
 <!--내용 부분-->
