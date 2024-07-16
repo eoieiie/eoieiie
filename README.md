@@ -54,7 +54,7 @@
   <a href="https://yellowsickmedicine.tistory.com">
     <img src="https://img.shields.io/badge/tistory-1EBC8F?style=for-the-badge&logo=tistory&logoColor=white" />&nbsp
   </a>
-  <a href="turkiyecivciv31@gmail.com">
+  <a href="mailto:turkiyecivciv31@gmail.com">
     <img
       src="https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>&nbsp
   </a>
