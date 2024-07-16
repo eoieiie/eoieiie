@@ -1,4 +1,4 @@
-<div style="text-align: center; font-size: 30px;">
+<div style="text-align: center; font-size: 30px; background-color: #20232a; color: #ffffff; padding: 20px;">
   Welcome to eoieiie
 </div>
 
