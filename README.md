@@ -60,6 +60,9 @@
   </a>
 </div>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eoieiie&layout=compact)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eoieiie&layout=compact" alt="Top Langs">
+</div>
+
 
 
