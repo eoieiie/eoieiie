@@ -30,11 +30,15 @@
   <img src="https://img.shields.io/badge/mongodb-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" />&nbsp
 </div>
 
+<br>
+
 <div style="background-color: #20232a; padding: 20px; border-radius: 10px; margin: 10px;">
   <h3 align="center" style="color: #ffffff;">📚 Studying 📚</h3>
   <div align="center">
   </div>
 </div>
+
+<br>
 
 <div style="background-color: #20232a; padding: 20px; border-radius: 10px; margin: 10px;">
   <h3 align="center" style="color: #ffffff;">🛠 Tools 🛠</h3>
@@ -51,16 +55,8 @@
 </div>
 
 
-  <div align="center">
-  </div>
+<br>
 
-  <br>
-
-  <div align="center">
-    <img src="https://img.shields.io/badge/VSCode-2C2C32.svg?style=for-the-badge&logo=visual-studio-code&logoColor=22ABF3" />&nbsp
-    <img src="https://img.shields.io/badge/jupyter-2C2C32.svg?style=for-the-badge&logo=jupyter&logoColor=F37726" />&nbsp
-  </div>
-</div>
 
 <div style="background-color: #20232a; padding: 20px; border-radius: 10px; margin: 10px;">
   <h3 align="center" style="color: #ffffff;">📫 Contact 📫</h3>
