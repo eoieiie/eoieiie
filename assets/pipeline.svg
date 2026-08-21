@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-label="Sensor to cloud to app data pipeline">
+<style>
+  :root{--line:#d8dee4;--dim:#8c959f;--fg:#1f2328;--soil:#2da44e;--net:#0969da;--card:#ffffff;--edge:#d8dee4}
+  @media (prefers-color-scheme:dark){:root{--line:#30363d;--dim:#7d8590;--fg:#e6edf3;--soil:#3fb950;--net:#58a6ff;--card:#0d1117;--edge:#30363d}}
+  .lbl{font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;fill:var(--fg);letter-spacing:.12em}
+  .sub{font:400 9.5px ui-monospace,SFMono-Regular,Menlo,monospace;fill:var(--dim);letter-spacing:.06em}
+  .wire{fill:none;stroke:var(--line);stroke-width:1.25}
+  .box{fill:var(--card);stroke:var(--edge);stroke-width:1.25;rx:8}
+</style>
+
+<!-- ── connectors ── -->
+<path id="w1" class="wire" d="M212 105 C 292 105, 300 105, 372 105"/>
+<path id="w2" class="wire" d="M508 105 C 580 105, 588 105, 668 105"/>
+
+<!-- ── node: sensor ── -->
+<rect class="box" x="42" y="66" width="170" height="78"/>
+<text class="lbl" x="62" y="96">SENSOR</text>
+<text class="sub" x="62" y="113">soil · light · temp</text>
+<g transform="translate(62,124)">
+  <rect x="0" y="0" width="130" height="4" rx="2" fill="var(--line)"/>
+  <rect x="0" y="0" height="4" rx="2" fill="var(--soil)">
+    <animate attributeName="width" values="28;104;46;92;28" dur="9s"
+      calcMode="spline" keyTimes="0;0.25;0.5;0.75;1"
+      keySplines=".4 0 .2 1;.4 0 .2 1;.4 0 .2 1;.4 0 .2 1" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<!-- ── node: cloud ── -->
+<rect class="box" x="372" y="66" width="136" height="78"/>
+<text class="lbl" x="392" y="96">CLOUD</text>
+<text class="sub" x="392" y="113">ingest · store</text>
+<g transform="translate(392,124)" fill="var(--net)">
+  <rect x="0"  y="0" width="4" height="4" rx="1"><animate attributeName="opacity" values=".25;1;.25" dur="2.4s" begin="0s"   calcMode="spline" keyTimes="0;.5;1" keySplines=".4 0 .2 1;.4 0 .2 1" repeatCount="indefinite"/></rect>
+  <rect x="9"  y="0" width="4" height="4" rx="1"><animate attributeName="opacity" values=".25;1;.25" dur="2.4s" begin=".3s" calcMode="spline" keyTimes="0;.5;1" keySplines=".4 0 .2 1;.4 0 .2 1" repeatCount="indefinite"/></rect>
+  <rect x="18" y="0" width="4" height="4" rx="1"><animate attributeName="opacity" values=".25;1;.25" dur="2.4s" begin=".6s" calcMode="spline" keyTimes="0;.5;1" keySplines=".4 0 .2 1;.4 0 .2 1" repeatCount="indefinite"/></rect>
+  <rect x="27" y="0" width="4" height="4" rx="1"><animate attributeName="opacity" values=".25;1;.25" dur="2.4s" begin=".9s" calcMode="spline" keyTimes="0;.5;1" keySplines=".4 0 .2 1;.4 0 .2 1" repeatCount="indefinite"/></rect>
+</g>
+
+<!-- ── node: app ── -->
+<rect class="box" x="668" y="66" width="170" height="78"/>
+<text class="lbl" x="688" y="96">APP</text>
+<text class="sub" x="688" y="113">notify · visualize</text>
+<g transform="translate(688,122)">
+  <path class="wire" stroke="var(--soil)" stroke-width="1.5" d="M0 8 L18 8 L26 2 L34 12 L44 5 L54 9 L130 9"
+        stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" values="200;0;0" dur="6s"
+      calcMode="spline" keyTimes="0;.55;1" keySplines=".33 0 .1 1;0 0 1 1" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- ── packets ── -->
+<g fill="var(--net)">
+  <circle r="3.2"><animateMotion dur="4.2s" begin="0s"   repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .25 1"><mpath href="#w1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur="4.2s" begin="0s" repeatCount="indefinite"/></circle>
+  <circle r="3.2"><animateMotion dur="4.2s" begin="1.4s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .25 1"><mpath href="#w1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur="4.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+  <circle r="3.2"><animateMotion dur="4.2s" begin="2.8s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .25 1"><mpath href="#w1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur="4.2s" begin="2.8s" repeatCount="indefinite"/></circle>
+</g>
+<g fill="var(--soil)">
+  <circle r="3.2"><animateMotion dur="4.2s" begin=".7s"  repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .25 1"><mpath href="#w2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur="4.2s" begin=".7s" repeatCount="indefinite"/></circle>
+  <circle r="3.2"><animateMotion dur="4.2s" begin="2.1s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .25 1"><mpath href="#w2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur="4.2s" begin="2.1s" repeatCount="indefinite"/></circle>
+  <circle r="3.2"><animateMotion dur="4.2s" begin="3.5s" repeatCount="indefinite" calcMode="spline" keyPoints="0;1" keyTimes="0;1" keySplines=".45 0 .25 1"><mpath href="#w2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.85;1" dur="4.2s" begin="3.5s" repeatCount="indefinite"/></circle>
+</g>
+
+<text class="sub" x="440" y="182" text-anchor="middle">Garden with Couch — sensor telemetry to a phone in your hand</text>
+</svg>

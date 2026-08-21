@@ -2,40 +2,45 @@
 
 # Byeongjoo Hwang
 
-**Cloud-Native SRE in training · Building [Garden with Couch](https://github.com/eoieiie)**
+**Founder & CTO, Garden with Couch**
 
-<sub>ICT Convergence × Computer Science @ Hanyang ERICA · ROKAF, discharging 2026.07</sub>
+Building an IoT plant device end to end — sensor firmware, cloud backend, mobile app.
 
-<sub>*"For it is by grace you have been saved, through faith." — Ephesians 2:8*</sub>
+<sub>ICT Convergence × Computer Science, Hanyang ERICA · ROKAF, discharging 2026.07</sub>
+
+<sub><i>"For it is by grace you have been saved, through faith." — Ephesians 2:8</i></sub>
 
 </div>
 
----
+<br>
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake.svg" />
-</picture>
-
+<img src="https://raw.githubusercontent.com/eoieiie/eoieiie/main/assets/pipeline.svg" width="880" alt="sensor to cloud to app pipeline" />
 </div>
 
----
+<br>
 
-### 🌱 What I'm building
+## Building
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Garden with Couch** | IoT plant object — an app that reads a pot's sensors and tells you what the plant needs. Founder / CTO. | Expo · React Native · Supabase · TypeScript |
-| **Root Simulator** | Physics simulator for air-pruning pot geometry. Optimizes air-room placement against root absorption area. | Python · NumPy · SciPy · Matplotlib |
-| **Oracle Server** | Single-node Oracle Cloud box running containerized game + backup services. My hands-on ops playground. | Docker Compose · OCI · Shell |
+| **Garden with Couch** | IoT plant object. A pot reads its own soil and light, and the app tells you what the plant needs. I own the product and the backend. | Expo · React Native · Supabase · Postgres · TypeScript |
+| **Root Simulator** | Physics simulator for air-pruning pot geometry. Optimizes air-room placement against root absorption area — the design tool behind the product. | Python · NumPy · SciPy |
+| **Oracle Server** | Single-node cloud box running containerized services with automated backups. Where I break things on purpose. | Docker Compose · OCI · Shell |
 | **HwpReader** | Native macOS reader for Korea's HWP document format, because nothing decent existed. | Swift · SwiftPM |
 
----
+## Stack
 
-### 🛠 Stack I actually use
+**Backend & Cloud**
+
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 **Languages**
 
@@ -46,25 +51,14 @@
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**App & Backend**
+**Client**
 
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-**Infra & Ops**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
 
-**Learning next** — the gap between where I am and Cloud-Native SRE
+**Learning next** — the gap between a single box and real infrastructure
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-gray?style=flat-square&logo=kubernetes&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-gray?style=flat-square&logo=terraform&logoColor=white)
@@ -72,7 +66,15 @@
 ![Grafana](https://img.shields.io/badge/Grafana-gray?style=flat-square&logo=grafana&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-gray?style=flat-square&logo=go&logoColor=white)
 
+## Activity
+
 <div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake.svg" />
+</picture>
 
 <!-- METRICS 카드: METRICS_TOKEN(repo 스코프 PAT) 시크릿을 등록한 뒤 아래 줄의 주석을 풀 것.
      토큰이 없으면 GITHUB_TOKEN으로 떨어지는데, 그러면 이 레포 1개만 집계되어
@@ -82,9 +84,9 @@
 
 </div>
 
-<div align="center">
+## Contact
 
-### 📫 Reach me
+<div align="center">
 
 [![Blog](https://img.shields.io/badge/Tistory-EA4B34?style=for-the-badge&logo=tistory&logoColor=white)](https://yellowsickmedicine.tistory.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:turkiyecivciv31@gmail.com)
