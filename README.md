@@ -2,9 +2,8 @@
 
 # Byeongjoo Hwang
 
-CEO at Iroun · CTO at Garden with Couch
-
-An infrastructure-minded founder — I run the servers underneath my own products.
+Building Garden with Couch — an IoT plant object, the app that reads it,
+and the cloud underneath both.
 
 <sub>ICT Convergence × Computer Science, Hanyang ERICA · ROKAF network systems operator, discharged 2026.07</sub>
 
@@ -22,11 +21,11 @@ An infrastructure-minded founder — I run the servers underneath my own product
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Iroun** — CEO | Hygiene-verified fulfillment for secondhand baby gear. We collect, sanitize, measure, and ship, instead of leaving hygiene to the seller. Pre-launch. | Infrastructure · ops |
-| **Garden with Couch** — CTO | IoT plant object, and **Braki**, its companion watering app. Observation-based, not timer-based. MVP shipped to Android and web. | Expo · React Native · Supabase · Postgres |
-| **[Meta Ads Deathmatch](https://github.com/eoieiie/meta-ads-mcp)** | Champion/challenger scoring for Instagram ad creatives. Read-only MCP server that ranks live ads on cost-per-profile-visit and reports to Slack. Runs our own ad spend. | TypeScript · MCP · Meta Graph API |
-| **hyend.kr** | Server maintainer for Hanyang ERICA's HY-END web service. Real users, real uptime. | AWS EC2 · Docker · GitHub Actions |
+| **Garden with Couch** | IoT plant object, and **Braki**, its companion watering app. Observation-based, not timer-based. MVP shipped to Android and web. | Expo · React Native · Supabase · Postgres |
 | **Root Simulator** | Physics simulator for air-pruning pot geometry. Genetic search over air-room placement — replaces physical prototyping with computation. | Python · NumPy · SciPy |
+| **hyend.kr** | Server maintainer for Hanyang ERICA's HY-END web service. Real users, real uptime. | AWS EC2 · Docker · GitHub Actions |
+| **[Meta Ads Deathmatch](https://github.com/eoieiie/meta-ads-mcp)** | Champion/challenger scoring for Instagram ad creatives. Read-only MCP server that ranks live ads on cost-per-profile-visit and reports to Slack. | TypeScript · MCP · Meta Graph API |
+| **Iroun** *(former)* | Co-founded and led as CEO. Hygiene-verified fulfillment for secondhand baby gear — collect, sanitize, measure, ship, instead of leaving hygiene to the seller. | Infrastructure · ops |
 | **[Domado HWP Viewer](https://github.com/eoieiie/domado-hwp-viewer)** | Native macOS reader for Korea's HWP document format, because nothing decent existed. Open source. | Swift · SwiftPM |
 
 ## Stack
