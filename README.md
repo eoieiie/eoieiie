@@ -2,8 +2,15 @@
 
 # Byeongjoo Hwang
 
-Building Garden with Couch — an IoT plant object, the app that reads it,
-and the cloud underneath both.
+**Founder and infrastructure engineer.**
+I build the product and run the servers underneath it.
+
+Most engineers stop at the API boundary; most founders stop at the pitch deck.
+I want to be the one who can follow a problem from a soil sensor all the way
+down to the Postgres row — and still know what it costs to run.
+
+Raised across Türkiye and Iran, working in four languages.
+Building toward products that ship outside Korea.
 
 <sub>ICT Convergence × Computer Science, Hanyang ERICA · ROKAF network systems operator, discharged 2026.07</sub>
 
@@ -21,12 +28,12 @@ and the cloud underneath both.
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Garden with Couch** | IoT plant object, and **Braki**, its companion watering app. Observation-based, not timer-based. MVP shipped to Android and web. | Expo · React Native · Supabase · Postgres |
-| **Root Simulator** | Physics simulator for air-pruning pot geometry. Genetic search over air-room placement — replaces physical prototyping with computation. | Python · NumPy · SciPy |
-| **hyend.kr** | Server maintainer for Hanyang ERICA's HY-END web service. Real users, real uptime. | AWS EC2 · Docker · GitHub Actions |
-| **[Meta Ads Deathmatch](https://github.com/eoieiie/meta-ads-mcp)** | Champion/challenger scoring for Instagram ad creatives. Read-only MCP server that ranks live ads on cost-per-profile-visit and reports to Slack. | TypeScript · MCP · Meta Graph API |
-| **Iroun** *(former)* | Co-founded and led as CEO. Hygiene-verified fulfillment for secondhand baby gear — collect, sanitize, measure, ship, instead of leaving hygiene to the seller. | Infrastructure · ops |
-| **[Domado HWP Viewer](https://github.com/eoieiie/domado-hwp-viewer)** | Native macOS reader for Korea's HWP document format, because nothing decent existed. Open source. | Swift · SwiftPM |
+| **Garden with Couch** | An IoT plant object and **Braki**, the app that reads it. Most plant apps run on a timer and tell you to water every seven days; Braki works from what the pot actually reports, so the advice changes with the plant instead of the calendar. I own the product direction and everything server-side. MVP shipped to Android and web. | Expo · React Native · Supabase · Postgres · TypeScript |
+| **Root Simulator** | A physics simulator for air-pruning pot geometry. Roots stop growing when a tip hits dry air, which pushes the plant to branch instead — so where you put the hollows inside a pot decides how much root surface you end up with. This runs a genetic search over those placements and scores each layout, which means design candidates get eliminated by computation instead of by molding and growing a plant for months. | Python · NumPy · SciPy |
+| **hyend.kr** | Server maintainer for Hanyang ERICA's HY-END web service. Real users on the other end, so uptime is not a hypothetical. Took over an existing deployment and documented the handover state first, which makes before-and-after measurable rather than a claim. | AWS EC2 · Docker · GitHub Actions |
+| **[Meta Ads Deathmatch](https://github.com/eoieiie/meta-ads-mcp)** | A read-only MCP server that scores live Instagram ad creatives against each other — oldest active ad as champion, newest as challenger — on cost-per-profile-visit and two other ratios I defined. Posts the verdict to Slack. It decides where our own ad budget goes, so the metric had to survive contact with real spend. | TypeScript · MCP · Meta Graph API |
+| **Iroun** | Co-founded during military service and led as CEO. Hygiene-verified fulfillment for secondhand baby gear — the platform collects, sanitizes, measures, and ships, rather than leaving hygiene to the seller's word. Built the operational and infrastructure side. | Infrastructure · ops |
+| **[Domado HWP Viewer](https://github.com/eoieiie/domado-hwp-viewer)** | A native macOS reader for HWP, Korea's dominant document format, which has no decent viewer outside the official Windows app. Open source, 4,000+ lines of Swift, actively maintained. | Swift · SwiftPM |
 
 ## Stack
 
@@ -67,10 +74,13 @@ and the cloud underneath both.
 
 ## Recognition
 
-Presidential Award, Korea Tourism Organization — [island-trip-app](https://github.com/eoieiie/island-trip-app)
-7th ROKAF Startup Competition, Encouragement Award (Personnel Chief) — 337 teams, 1,160 participants
-2026 National Defense Startup Competition — final 30 teams
-LikeLion, Excellence Award
+**Presidential Award, Korea Tourism Organization** — for [island-trip-app](https://github.com/eoieiie/island-trip-app), a travel app for Korea's islands. Judged by a public agency rather than a campus panel.
+
+**7th ROKAF Startup Competition, Encouragement Award** (Personnel Chief) — 337 teams, 1,160 participants.
+
+**2026 National Defense Startup Competition** — advanced to the final 30 teams.
+
+**LikeLion, Excellence Award.**
 
 <sub>Linux Master Level 2 · SQLD · ADsP — Korean, English, Turkish, Persian</sub>
 
