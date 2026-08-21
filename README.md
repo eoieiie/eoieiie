@@ -72,15 +72,15 @@
 ![Grafana](https://img.shields.io/badge/Grafana-gray?style=flat-square&logo=grafana&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-gray?style=flat-square&logo=go&logoColor=white)
 
----
-
 <div align="center">
 
+<!-- METRICS 카드: METRICS_TOKEN(repo 스코프 PAT) 시크릿을 등록한 뒤 아래 줄의 주석을 풀 것.
+     토큰이 없으면 GITHUB_TOKEN으로 떨어지는데, 그러면 이 레포 1개만 집계되어
+     "1 Repository / 0 Languages"가 찍힌다.
 <img src="https://raw.githubusercontent.com/eoieiie/eoieiie/output/metrics.svg" width="500" />
+-->
 
 </div>
-
----
 
 <div align="center">
 
