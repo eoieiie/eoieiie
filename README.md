@@ -76,8 +76,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=eoieiie&show_icons=true&count_private=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eoieiie&layout=compact&count_private=true&hide_border=true&langs_count=8&theme=github_dark&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9" height="165" />
+<img src="https://raw.githubusercontent.com/eoieiie/eoieiie/output/metrics.svg" width="500" />
 
 </div>
 
