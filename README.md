@@ -2,13 +2,10 @@
 
 # Byeongjoo Hwang
 
-**Founder & CTO, Garden with Couch**
+Founder & CTO at Garden with Couch — building an IoT plant device end to end:
+sensor firmware, cloud backend, mobile app.
 
-Building an IoT plant device end to end — sensor firmware, cloud backend, mobile app.
-
-<sub>ICT Convergence × Computer Science, Hanyang ERICA · ROKAF, discharging 2026.07</sub>
-
-<sub><i>"For it is by grace you have been saved, through faith." — Ephesians 2:8</i></sub>
+<sub>ICT Convergence × Computer Science, Hanyang ERICA · ROKAF, discharging 2026.07 · Ephesians 2:8</sub>
 
 </div>
 
@@ -27,6 +24,7 @@ Building an IoT plant device end to end — sensor firmware, cloud backend, mobi
 | **Garden with Couch** | IoT plant object. A pot reads its own soil and light, and the app tells you what the plant needs. I own the product and the backend. | Expo · React Native · Supabase · Postgres · TypeScript |
 | **Root Simulator** | Physics simulator for air-pruning pot geometry. Optimizes air-room placement against root absorption area — the design tool behind the product. | Python · NumPy · SciPy |
 | **Oracle Server** | Single-node cloud box running containerized services with automated backups. Where I break things on purpose. | Docker Compose · OCI · Shell |
+| **[Meta Ads Deathmatch](https://github.com/eoieiie/meta-ads-mcp)** | Champion/challenger scoring for Instagram ad creatives. Read-only MCP server that ranks live ads on cost-per-profile-visit and reports to Slack. Runs our own ad spend. | TypeScript · MCP · Meta Graph API |
 | **[Domado HWP Viewer](https://github.com/eoieiie/domado-hwp-viewer)** | Native macOS reader for Korea's HWP document format, because nothing decent existed. Open source, actively maintained. | Swift · SwiftPM |
 
 ## Stack
@@ -68,9 +66,9 @@ Building an IoT plant device end to end — sensor firmware, cloud backend, mobi
 
 ## Also public
 
-[**meta-ads-mcp**](https://github.com/eoieiie/meta-ads-mcp) — MCP server for the Meta Ads API · TypeScript
-[**island-trip-app**](https://github.com/eoieiie/island-trip-app) — Korean island tour app · Flutter · Dart
-[**island-trip-app-backend**](https://github.com/eoieiie/island-trip-app-backend) · [**FastAPI-with-MySQL**](https://github.com/eoieiie/FastAPI-with-MySQL) · [**Auto-Umbrella-Backend**](https://github.com/eoieiie/Auto-Umbrella-Backend) — earlier backend work · Python · FastAPI
+[island-trip-app](https://github.com/eoieiie/island-trip-app) — Korean island tour app · Flutter
+[island-trip-app-backend](https://github.com/eoieiie/island-trip-app-backend) — its REST API · Python
+[FastAPI-with-MySQL](https://github.com/eoieiie/FastAPI-with-MySQL) · [Auto-Umbrella-Backend](https://github.com/eoieiie/Auto-Umbrella-Backend) — earlier backend work
 
 ## Activity
 
