@@ -1,75 +1,93 @@
-<!--헤드 부분-->
+<div align="center">
 
+# Byeongjoo Hwang
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eoieiie&layout=donut&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&exclude_repo=Face-Transfer-Application" width=38% />
-</a>    
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img src="https://github-readme-stats.vercel.app/api?username=eoieiie&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true" width=56% />
-</a>
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=eoieiie&theme=react-dark&bg_color=20232a&hide_border=true&line=58A6FF&color=58A6FF" width=94%/>
-</a>
+**Cloud-Native SRE in training · Building [Garden with Couch](https://github.com/eoieiie)**
 
+<sub>ICT Convergence × Computer Science @ Hanyang ERICA · ROKAF, discharging 2026.07</sub>
 
+<sub>*"For it is by grace you have been saved, through faith." — Ephesians 2:8*</sub>
 
-<div style="background-color: #20232a; padding: 20px; border-radius: 10px; margin: 10px;">
-  <h3 align="center" style="color: #ffffff;">✨ Tech Stack ✨</h3>
-  <div align="center">
-    <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=20232a" />&nbsp
-    <img src="https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />&nbsp
-    <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />&nbsp
-    <img src="https://img.shields.io/badge/C-A8B9CC.svg?style=for-the-badge&logo=c&logoColor=white" />&nbsp
-    <img src="https://img.shields.io/badge/C%23-000000.svg?style=for-the-badge&logo=Csharp&logoColor=white" />&nbsp
-  </div>
+</div>
+
+---
 
 <div align="center">
-  <img src="https://img.shields.io/badge/flutter-02569B.svg?style=for-the-badge&logo=flutter&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/fastapi-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/mongodb-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" />&nbsp
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake.svg" />
+</picture>
+
 </div>
 
-<br>
+---
 
-<div style="background-color: #20232a; padding: 20px; border-radius: 10px; margin: 10px;">
-  <h3 align="center" style="color: #ffffff;">📚 Studying 📚</h3>
-  <div align="center">
-  </div>
-</div>
+### 🌱 What I'm building
 
-<br>
+| Project | What it is | Stack |
+|---|---|---|
+| **Garden with Couch** | IoT plant object — an app that reads a pot's sensors and tells you what the plant needs. Founder / CTO. | Expo · React Native · Supabase · TypeScript |
+| **Root Simulator** | Physics simulator for air-pruning pot geometry. Optimizes air-room placement against root absorption area. | Python · NumPy · SciPy · Matplotlib |
+| **Oracle Server** | Single-node Oracle Cloud box running containerized game + backup services. My hands-on ops playground. | Docker Compose · OCI · Shell |
+| **HwpReader** | Native macOS reader for Korea's HWP document format, because nothing decent existed. | Swift · SwiftPM |
 
-<div style="background-color: #20232a; padding: 20px; border-radius: 10px; margin: 10px;">
-  <h3 align="center" style="color: #ffffff;">🛠 Tools 🛠</h3>
-  <div align="center">
-    <img src="https://img.shields.io/badge/git-F05033.svg?style=for-the-badge&logo=git&logoColor=white" />&nbsp
-    <img src="https://img.shields.io/badge/github-181717.svg?style=for-the-badge&logo=github&logoColor=white" />&nbsp
-    <img src="https://img.shields.io/badge/Notion-F3F3F3.svg?style=for-the-badge&logo=notion&logoColor=black" />&nbsp
-  </div>
+---
+
+### 🛠 Stack I actually use
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+**App & Backend**
+
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+**Infra & Ops**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
+
+**Learning next** — the gap between where I am and Cloud-Native SRE
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-gray?style=flat-square&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-gray?style=flat-square&logo=terraform&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-gray?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-gray?style=flat-square&logo=grafana&logoColor=white)
+![Go](https://img.shields.io/badge/Go-gray?style=flat-square&logo=go&logoColor=white)
+
+---
 
 <div align="center">
-  <img src="https://img.shields.io/badge/VSCode-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/figma-F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white" />&nbsp
+
+<img src="https://github-readme-stats.vercel.app/api?username=eoieiie&show_icons=true&count_private=true&hide_border=true&theme=github_dark&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=eoieiie&layout=compact&count_private=true&hide_border=true&langs_count=8&theme=github_dark&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9" height="165" />
+
 </div>
 
+---
 
-<br>
+<div align="center">
 
+### 📫 Reach me
 
-<div style="background-color: #20232a; padding: 20px; border-radius: 10px; margin: 10px;">
-  <h3 align="center" style="color: #ffffff;">📫 Contact 📫</h3>
-  <div align="center">
-    <a href="https://yellowsickmedicine.tistory.com">
-      <img src="https://img.shields.io/badge/tistory-1EBC8F?style=for-the-badge&logo=tistory&logoColor=white" />&nbsp
-    </a>
-    <a href="mailto:turkiyecivciv31@gmail.com">
-      <img
-        src="https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>&nbsp
-    </a>
-  </div>
+[![Blog](https://img.shields.io/badge/Tistory-EA4B34?style=for-the-badge&logo=tistory&logoColor=white)](https://yellowsickmedicine.tistory.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:turkiyecivciv31@gmail.com)
+
 </div>
-
-<br>
-
