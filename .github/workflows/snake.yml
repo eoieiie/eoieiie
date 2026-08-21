@@ -26,7 +26,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
-          filename: dist/metrics.svg
+          filename: metrics.svg
           output_action: none
           config_timezone: Asia/Seoul
           base: header, repositories
@@ -35,6 +35,12 @@ jobs:
           plugin_languages_sections: most-used
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
+      - name: Move render out of the metrics container volume
+        run: |
+          sudo cp /metrics_renders/metrics.svg dist/metrics.svg
+          sudo chown "$USER" dist/metrics.svg
+          ls -la dist/
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
