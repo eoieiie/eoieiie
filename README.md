@@ -2,10 +2,11 @@
 
 # Byeongjoo Hwang
 
-Founder & CTO at Garden with Couch — building an IoT plant device end to end:
-sensor firmware, cloud backend, mobile app.
+CEO at Iroun · CTO at Garden with Couch
 
-<sub>ICT Convergence × Computer Science, Hanyang ERICA · ROKAF, discharging 2026.07 · Ephesians 2:8</sub>
+An infrastructure-minded founder — I run the servers underneath my own products.
+
+<sub>ICT Convergence × Computer Science, Hanyang ERICA · ROKAF network systems operator, discharged 2026.07</sub>
 
 </div>
 
@@ -21,11 +22,12 @@ sensor firmware, cloud backend, mobile app.
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Garden with Couch** | IoT plant object. A pot reads its own soil and light, and the app tells you what the plant needs. I own the product and the backend. | Expo · React Native · Supabase · Postgres · TypeScript |
-| **Root Simulator** | Physics simulator for air-pruning pot geometry. Optimizes air-room placement against root absorption area — the design tool behind the product. | Python · NumPy · SciPy |
-| **Oracle Server** | Single-node cloud box running containerized services with automated backups. Where I break things on purpose. | Docker Compose · OCI · Shell |
+| **Iroun** — CEO | Hygiene-verified fulfillment for secondhand baby gear. We collect, sanitize, measure, and ship, instead of leaving hygiene to the seller. Pre-launch. | Infrastructure · ops |
+| **Garden with Couch** — CTO | IoT plant object, and **Braki**, its companion watering app. Observation-based, not timer-based. MVP shipped to Android and web. | Expo · React Native · Supabase · Postgres |
 | **[Meta Ads Deathmatch](https://github.com/eoieiie/meta-ads-mcp)** | Champion/challenger scoring for Instagram ad creatives. Read-only MCP server that ranks live ads on cost-per-profile-visit and reports to Slack. Runs our own ad spend. | TypeScript · MCP · Meta Graph API |
-| **[Domado HWP Viewer](https://github.com/eoieiie/domado-hwp-viewer)** | Native macOS reader for Korea's HWP document format, because nothing decent existed. Open source, actively maintained. | Swift · SwiftPM |
+| **hyend.kr** | Server maintainer for Hanyang ERICA's HY-END web service. Real users, real uptime. | AWS EC2 · Docker · GitHub Actions |
+| **Root Simulator** | Physics simulator for air-pruning pot geometry. Genetic search over air-room placement — replaces physical prototyping with computation. | Python · NumPy · SciPy |
+| **[Domado HWP Viewer](https://github.com/eoieiie/domado-hwp-viewer)** | Native macOS reader for Korea's HWP document format, because nothing decent existed. Open source. | Swift · SwiftPM |
 
 ## Stack
 
@@ -63,6 +65,15 @@ sensor firmware, cloud backend, mobile app.
 ![Prometheus](https://img.shields.io/badge/Prometheus-gray?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-gray?style=flat-square&logo=grafana&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-gray?style=flat-square&logo=go&logoColor=white)
+
+## Recognition
+
+Presidential Award, Korea Tourism Organization — [island-trip-app](https://github.com/eoieiie/island-trip-app)
+7th ROKAF Startup Competition, Encouragement Award (Personnel Chief) — 337 teams, 1,160 participants
+2026 National Defense Startup Competition — final 30 teams
+LikeLion, Excellence Award
+
+<sub>Linux Master Level 2 · SQLD · ADsP — Korean, English, Turkish, Persian</sub>
 
 ## Also public
 
