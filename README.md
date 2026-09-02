@@ -12,7 +12,7 @@ I build IoT products and run the servers behind them.
 <br>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/eoieiie/eoieiie/output/grid.svg" width="739" alt="" />
+<img src="https://raw.githubusercontent.com/eoieiie/eoieiie/output/grid.svg" width="771" alt="" />
 </div>
 
 ## Building

@@ -2,8 +2,11 @@
 import json, os, subprocess, sys
 
 CELL, GAP, RADIUS = 11, 3, 2
-LIGHT = ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"]
-DARK  = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+PAD = 16
+# 라이트/다크를 따라가지 않고 어두운 배경으로 고정한다.
+# 흰 배경에 얹으면 눈이 부시고, 잔디 초록도 다크에서 더 선명하다.
+BG, BORDER = "#0d1117", "#21262d"
+PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
 
 # viewer = 토큰 소유자 본인. 이쪽으로 조회해야 private 레포 기여까지 집계된다.
 # user(login:) 로 조회하면 public 기여만 잡혀서 실제 활동량과 크게 어긋난다.
@@ -51,25 +54,23 @@ def levels(weeks):
 
 def build(weeks):
     lv = levels(weeks)
-    w = len(weeks) * (CELL + GAP) - GAP
-    h = 7 * (CELL + GAP) - GAP
+    gw = len(weeks) * (CELL + GAP) - GAP
+    gh = 7 * (CELL + GAP) - GAP
+    w, h = gw + PAD * 2, gh + PAD * 2
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" '
         f'role="img" aria-label="contribution graph">',
-        "<style>",
-        ":root{" + "".join(f"--l{i}:{c};" for i, c in enumerate(LIGHT)) + "}",
-        "@media(prefers-color-scheme:dark){:root{" + "".join(f"--l{i}:{c};" for i, c in enumerate(DARK)) + "}}",
-        "rect{shape-rendering:geometricPrecision}",
-        "</style>",
+        "<style>rect{shape-rendering:geometricPrecision}</style>",
+        f'<rect x="0" y="0" width="{w}" height="{h}" rx="8" fill="{BG}" stroke="{BORDER}"/>',
     ]
     for x, week in enumerate(weeks):
         # 물결이 왼쪽에서 오른쪽으로 지나간다. 열마다 시작을 조금씩 늦춘다.
         delay = round(x * 0.075, 3)
         for y, count in enumerate(week):
             l = lv(count)
-            px, py = x * (CELL + GAP), y * (CELL + GAP)
+            px, py = PAD + x * (CELL + GAP), PAD + y * (CELL + GAP)
             cell = (f'<rect x="{px}" y="{py}" width="{CELL}" height="{CELL}" rx="{RADIUS}" '
-                    f'fill="var(--l{l})"')
+                    f'fill="{PALETTE[l]}"')
             if l == 0:
                 out.append(cell + "/>")
                 continue
