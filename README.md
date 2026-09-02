@@ -11,6 +11,10 @@ I build IoT products and run the servers behind them.
 
 <br>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/eoieiie/eoieiie/output/grid.svg" width="739" alt="" />
+</div>
+
 ## Building
 
 | Project | What it is | Stack |
@@ -76,24 +80,6 @@ I build IoT products and run the servers behind them.
 [island-trip-app](https://github.com/eoieiie/island-trip-app) — Korean island tour app · Flutter
 [island-trip-app-backend](https://github.com/eoieiie/island-trip-app-backend) — its REST API · Python
 [FastAPI-with-MySQL](https://github.com/eoieiie/FastAPI-with-MySQL) · [Auto-Umbrella-Backend](https://github.com/eoieiie/Auto-Umbrella-Backend) — earlier backend work
-
-## Activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/eoieiie/eoieiie/output/snake.svg" />
-</picture>
-
-<!-- METRICS 카드: METRICS_TOKEN(repo 스코프 PAT) 시크릿을 등록한 뒤 아래 줄의 주석을 풀 것.
-     토큰이 없으면 GITHUB_TOKEN으로 떨어지는데, 그러면 이 레포 1개만 집계되어
-     "1 Repository / 0 Languages"가 찍힌다.
-<img src="https://raw.githubusercontent.com/eoieiie/eoieiie/output/metrics.svg" width="500" />
--->
-
-</div>
 
 ## Contact
 

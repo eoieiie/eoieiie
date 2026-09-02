@@ -13,13 +13,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate snake from contribution grid
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+      - uses: actions/checkout@v4
+
+      - name: Draw contribution grid
+        env:
+          # METRICS_TOKEN(repo 스코프 PAT)이 있으면 private 기여까지 집계된다.
+          # 없으면 GITHUB_TOKEN으로 떨어지고 public 기여만 잡힌다.
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/make_grid.py "${{ github.repository_owner }}" dist/grid.svg
 
       - name: Generate stats card
         uses: lowlighter/metrics@latest
@@ -33,8 +34,6 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
 
       - name: Move render out of the metrics container volume
         run: |
