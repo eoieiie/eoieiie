@@ -2,24 +2,11 @@
 
 # Byeongjoo Hwang
 
-**Founder and infrastructure engineer.**
-I build the product and run the servers underneath it.
-
-Most engineers stop at the API boundary; most founders stop at the pitch deck.
-I want to be the one who can follow a problem from a soil sensor all the way
-down to the Postgres row — and still know what it costs to run.
-
-Raised across Türkiye and Iran, working in four languages.
-Building toward products that ship outside Korea.
+Founder and infrastructure engineer.
+I build IoT products and run the servers behind them.
 
 <sub>ICT Convergence × Computer Science, Hanyang ERICA · ROKAF network systems operator, discharged 2026.07</sub>
 
-</div>
-
-<br>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/eoieiie/eoieiie/main/assets/pipeline.svg" width="880" alt="sensor to cloud to app pipeline" />
 </div>
 
 <br>
