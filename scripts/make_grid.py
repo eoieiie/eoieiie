@@ -8,35 +8,21 @@ PAD = 16
 BG, BORDER = "#0d1117", "#21262d"
 PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
 
-# viewer = 토큰 소유자 본인. 이쪽으로 조회해야 private 레포 기여까지 집계된다.
-# user(login:) 로 조회하면 public 기여만 잡혀서 실제 활동량과 크게 어긋난다.
-VIEWER_QUERY = """
-{ viewer { login contributionsCollection { contributionCalendar {
-  totalContributions weeks { contributionDays { date contributionCount } } } } } }
-"""
-USER_QUERY = """
+# 프로필 설정의 "Include private contributions" 가 켜져 있으면
+# 공개 조회(user(login:))로도 비공개 기여가 총계에 포함된다. 그래서 PAT가 필요 없다.
+# 그 설정을 끄면 공개 기여만 잡히므로, 그때는 본인 PAT를 넣고 viewer 조회로 바꿔야 한다.
+QUERY = """
 { user(login: "%s") { contributionsCollection { contributionCalendar {
   totalContributions weeks { contributionDays { date contributionCount } } } } } }
 """
 
-def _run(query):
-    out = subprocess.run(["gh", "api", "graphql", "-f", f"query={query}"],
-                         capture_output=True, text=True, check=True).stdout
-    return json.loads(out)["data"]
-
 def fetch(user):
-    """본인 토큰이면 viewer로, 아니면(봇 토큰 등) user(login:)으로 떨어진다."""
-    try:
-        d = _run(VIEWER_QUERY)["viewer"]
-        if d["login"].lower() == user.lower():
-            cal = d["contributionsCollection"]["contributionCalendar"]
-            print(f"viewer 조회 (private 포함): {cal['totalContributions']}", file=sys.stderr)
-            return [[x["contributionCount"] for x in w["contributionDays"]] for w in cal["weeks"]]
-    except Exception as e:
-        print(f"viewer 조회 실패, user 조회로 폴백: {e}", file=sys.stderr)
-    cal = _run(USER_QUERY % user)["user"]["contributionsCollection"]["contributionCalendar"]
-    print(f"user 조회 (public만): {cal['totalContributions']}", file=sys.stderr)
-    return [[x["contributionCount"] for x in w["contributionDays"]] for w in cal["weeks"]]
+    out = subprocess.run(["gh", "api", "graphql", "-f", f"query={QUERY % user}"],
+                         capture_output=True, text=True, check=True).stdout
+    cal = json.loads(out)["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    print(f"기여 {cal['totalContributions']}건", file=sys.stderr)
+    return [[d["contributionCount"] for d in w["contributionDays"]] for w in cal["weeks"]]
+
 
 def levels(weeks):
     """0이 아닌 값의 사분위로 단계를 나눈다. max 기준으로 자르면 대부분 1단계로 몰린다."""
